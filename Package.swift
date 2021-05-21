@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         // Our package contains two targets, one for our library
         // code, and one for our tests:
-        .target(name: "Markdowner", sources: ["Markdowner/Classes"])
+        .target(name: "Markdowner", path: ".",sources: ["Markdowner/Classes"])
         
     ]
 )
