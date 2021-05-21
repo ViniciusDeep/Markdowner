@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Markdowner",
+    defaultLocalization: "en",
     products: [
         // The external product of our package is an importable
         // library that has the same name as the package itself:
